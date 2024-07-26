@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">2.4-kotlin</string>
+    <string name="descripcion">Firma Digital</string>
+    <string name="ingreseDescripcion">Ingrese la descripción de su firma</string>
+    <string name="boton">Salvar</string>
+    <string name="verFotos">Ver Firmas Ingresadas</string>
+</resources>

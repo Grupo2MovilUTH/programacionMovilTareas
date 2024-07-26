@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">2.3-kotlin</string>
+    <string name="boton" translatable="false">Salvar</string>
+    <string name="descripcion" translatable="false">Descripción</string>
+    <string name="verFotos" translatable="false">Ver Fotos Tomadas</string>
+    <string name="ingreseDescripcion" translatable="false">Ingrese la descripción de la foto</string>
+</resources>

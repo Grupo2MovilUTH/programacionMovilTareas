@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Aquí se añade la vista de firma digital -->
+    <com.example.a24_kotlin.Canva_FirmaDigital
+        android:id="@+id/firma_digital"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#ffffff" /> <!-- Puedes cambiar el tamaño y el color de fondo según necesites -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/descripcion"
+        android:textColor="#D1CBCB"
+        android:textSize="16sp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/txtDescripcionFirma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/ingreseDescripcion"
+        android:background="@drawable/style_border_edit"
+        android:inputType="text"
+        android:textColor="#D6D3D3"
+        android:textColorHint="#888585"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/botones"
+        android:text="@string/boton" />
+
+    <Button
+        android:id="@+id/btnVerFirmas"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:backgroundTint="@color/botones"
+        android:text="@string/verFotos" />
+
+</LinearLayout>
